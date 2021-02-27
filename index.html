@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+  <body oncontextmenu="return false;">
+
+  <div class='container'>
+    <div class='header'>
+      <div class='info'>
+        <h1> COVID-SWEEPER </h1>
+        <p> Welcome to COVID-SWEEPER! Your goal is to clear all the hiding COVID-19 Virus cells!</p>
+        <p> Right click to clean the square with Antibacterial Spray! If you remove a COVID Virus, you win a drink! </p>
+      </div>
+
+      <div class="score">
+        <p id='anti'></p>
+        <p id='bonus'></p>
+      </div>
+    </div>
+
+  <div class='reset-button'>
+    <p id='reset'>Reset</p>
+    <p id='timer'>Seconds: 0</p>
+  </div>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <p id='modalmsg'>Some text in the Modal..</p>
+      <span class="close">&times;</span>
+    </div>
+  </div>
+
+  <div class="grid-wrapper">
+    <div id='grid' class="grid">Start</div>
+  </div>
+  
+  </div>
+
+  <footer>
+  </footer>
+
+</body>
+<script src="./scripts/app.js"></script>
+</html>
